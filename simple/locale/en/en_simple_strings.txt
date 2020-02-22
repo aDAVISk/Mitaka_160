@@ -1,0 +1,6 @@
+//=====  Simple Menu  =====
+MENU_SIMPLE_ROOT: Simple Menu
+MENU_SIMPLE_TIMESTEP: Time Step
+MENU_SIMPLE_TARGET_SS: Target: Solar System
+MENU_SIMPLE_TARGET_STAR: Target: Stars
+MENU_SIMPLE_DISP_CNST: Display: Constellation
