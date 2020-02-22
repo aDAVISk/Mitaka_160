@@ -1,0 +1,6 @@
+//=====  Simple Menu  =====
+MENU_SIMPLE_ROOT: メニュー（簡易版）
+MENU_SIMPLE_TIMESTEP: 進める時間
+MENU_SIMPLE_TARGET_SS: ターゲット: 太陽系
+MENU_SIMPLE_TARGET_STAR: ターゲット: 恒星
+MENU_SIMPLE_DISP_CNST: 表示: 星座
