@@ -1,13 +1,13 @@
 ## Description 概要
 This directory holds files to customize Mitaka (4D2U project) of version 1.6.<br>
-These files are completely Third-party. Please do NOT ask to 4D2U project about files under this directory.<br>
+These files are completely Third-party. Please do NOT ask to 4D2U project about　this directory.<br>
 
 Please visit https://4d2u.nao.ac.jp/html/program/mitaka/index_E.html for finding updates on Mitaka.<br>
 Also please read Copyright and Usage Notice of Mitaka https://4d2u.nao.ac.jp/english/index.html#notice  
 
 
 Mitakaのカスタマイズ用ファイルです。<br>
-これらのファイルはサードパーティーによるものです。本家（4D2U project）に当ディレクトリ内のファイルについて問い合わせしないでください。<br>
+これらのファイルはサードパーティーによるものです。本家（4D2U project）に当ディレクトリについて問い合わせしないでください。<br>
 
 Mitakaについては https://4d2u.nao.ac.jp/html/program/mitaka/ をご覧ください。<br>
 またMitakaの利用上のご注意 https://4d2u.nao.ac.jp/t/var/download/notice.html もお読みください。
