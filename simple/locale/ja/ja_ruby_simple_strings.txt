@@ -1,0 +1,6 @@
+//=====  Simple Menu  =====
+MENU_SIMPLE_ROOT: メニュー（{簡易版|かんいばん}）
+MENU_SIMPLE_TIMESTEP: {進|すす}める{時間|じかん}
+MENU_SIMPLE_TARGET_SS: ターゲット: {太陽系|たいようけい}
+MENU_SIMPLE_TARGET_STAR: ターゲット: {恒星|こうせい}
+MENU_SIMPLE_DISP_CNST: {表示|ひょうじ}: {星座|せいざ}
