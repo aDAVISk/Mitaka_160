@@ -22,3 +22,4 @@ MENU_TITLE:	簡易版
 TITLE:		4{次元|じげん}デジタル{宇宙|うちゅう}ビューワー {Mitaka|みたか}
 SUB_TITLE:	
 MENU_TITLE: {簡易版|かんいばん}
+
