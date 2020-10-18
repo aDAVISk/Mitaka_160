@@ -18,3 +18,5 @@ CC-BY-NC-SA: Akito D. Kawamura (@aDAVISk)
 
 ## Sequences
 このディレクトリにはシーケンス用のファイルがあります。Mitakaのメニューバーの「ファイル」＞「コマンド定義ファイルを開く」より読み込み、メニューバーの「コマンド」より実行してください。
+
+* adk_seq.mcd : Mitaka WSで発表したデモの公開バージョンです。
