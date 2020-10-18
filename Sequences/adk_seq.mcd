@@ -1,0 +1,162 @@
+//////////////////////////////////////////////////
+// File: adk_seq.prg
+// CC-BY-NC-SA : Akito D. Kawamura (@aDAVISk)
+// Last Modification: 2020.Sep.27
+//////////////////////////////////////////////////
+
+DefSequence[ADK_SEQ_SCALE, MENU_BAR]
+	KeyString(Earth, Moon, Asteroids,&Farther)
+	KeyString[ja, ja_ruby](地球、月、小惑星、さらに遠くへ)
+	ExecCommand(INIT)
+	SwitchSet(
+		SUN_DISP, SUN_NAME, SUN_GLARE, PLANET_DISP,
+		PLANET_NAME, PLANET_ORBIT, PLANET_SELECT, PLANET_CLOUD,
+		SATELLITE_DISP, SATELLITE_NAME, SATELLITE_ORBIT, SATELLITE_SELECT,
+		MINOR_PLANET_DISP, MINOR_PLANET_NAME, MINOR_PLANET_ORBIT, MINOR_PLANET_SELECT,
+		TNO_DISP, TNO_NAME, TNO_ORBIT, TNO_SELECT,
+		OORT_CLOUD_DISP, STAR_DISP, STAR_NAME, STAR_ORBIT,
+		STAR_SELECT, OUR_GALAXY_DISP, OUR_GALAXY_NAME, SGR_A_ST_DISP,
+		GALACTIC_CENTER_BG_DISP, GLOB_CLSTR_DISP, NEARBY_GALAXY_DISP, NEARBY_GALAXY_NAME,
+		NEARBY_GALAXY_SELECT, DISTANT_GALAXY_DISP, QSO_DISP, CMB_DISP,
+		SPACECRAFT_DISP, SPACECRAFT_NAME, SPACECRAFT_SELECT, ECLIPSE_DISP,
+		CONSTELLATION_SELECT_SPACE, SCALE_CIRCLE_DISP, GROUND_DISP, ENABLE_SHADER,
+		ENABLE_BLACKOUT_SHORTCUT, DATE_DISP, 4D2U_LOGO_DISP
+	)
+	SetMainMode(MODE_MAIN_SPACE)
+	SetDateTime(2019/12/24 12:00:0.0 9.0)
+	SetOrientation(0.8,0.6,0,0)
+	ResetViewTarget()
+	SetHeadOrientation(1,0,0,0)
+	SetScale(4.6e-09)
+	SetModesToDefault()
+	Pause()
+
+	// 地球を北から見る
+	Transition(4.0)
+	SetOrientation(1,0,0,0)
+	Pause()
+
+	Transition(4.0)
+	SetDateTime(2019/12/25 12:00:0.0 9.0)
+	Pause()
+
+
+	// 月の公転
+	Transition(4.0)
+	SetScale(1.60e-07)
+	SetTimeStep(4HOUR)
+	Pause()
+
+	Transition(8.0)
+	SetDateTime(2020/01/24 12:00:0.0 9.0)
+	Pause()
+
+	//　月へ
+	Transition(1.0)
+	SetTarget(SAT_E_MOON)
+	Transition(4.0)
+	SetScale(1.6e-09)
+	Transition(4.0)
+	SetOrientation(0.707,0.707,0,0)
+	Pause()
+
+	// 月の地形 (ズームアップ)
+	//Transition(2.0)
+	//SetOrientation(0.5,0.5,0.5,-0.5)
+	Transition(4.0)
+	SetScale(1.6e-11)
+	Pause()
+
+	// 太陽へ
+	Transition(4.0)
+	SetScale(1.6e-09)
+	Pause(0.2)
+	Transition(4.0)
+	SetOrientation(1,0,0,0)
+	Pause(0.2)
+	Transition(5.0)
+	SetScale(1.6e-05)
+	Pause(0.2)
+	Transition(8.0)
+	SetTarget(SUN)
+	Pause(0.2)
+	Transition(4.0)
+	SetScale(4.6e-07)
+	Pause()
+
+	// 内惑星の公転
+	Transition(4.0)
+	SetScale(1.6e-04)
+	SetTimeStep(1DAY)
+	Pause()
+	Transition(10.0)
+	SetDateTime(2020/12/25 12:00:0.0 9.0)
+	Pause()
+
+	//　オリオン座の確認
+	//SelectionRemove(CNST_ALL)
+	//SelectionAdd(CNST_Ori)
+	SwitchON(CONSTELLATION_LINE)
+	Transition(4.0)
+	SetViewTarget(HIP_26311)
+	Pause()
+
+	Transition(4.0)
+	SetViewTarget(SUN)
+	Pause()
+
+	// スケール変更（近傍の恒星）
+	Transition(20.0)
+	SetScale(1.8e+01)
+	Pause()
+
+	// オリオン座の確認
+	Transition(4.0)
+	SetViewTarget(HIP_26311)
+	Pause()
+
+	Transition(4.0)
+	SetViewTarget(SUN)
+	Pause()
+
+	// スケール変更
+	Transition(6.0)
+	SetScale(1.8e+02)
+	Pause()
+
+	// オリオン座の確認
+	Transition(4.0)
+	SetViewTarget(HIP_27989)
+	Pause()
+
+	Transition(4.0)
+	SetViewTarget(SUN)
+	Pause()
+
+	// スケール変更 (天の川銀河)
+	Transition(10.0)
+	SetScale(1.5e+05)
+	Pause()
+
+	// スケール変更 (近傍の銀河)
+	Transition(6.0)
+	SetScale(8.0e+06)
+	Pause()
+
+	// スケール変更（大規模構造）
+	Transition(6.0)
+	//SetScale(1.6e+10)
+	SetScale(5.0e+9)
+	Pause()
+
+	// フィナーレ
+	Transition(4.0)
+	SetOrientation(9.078e-01, 0.000e+00, -4.193e-01, 0.000e+00)
+	SetTarget(PLNT_EARTH)
+	SetViewTarget(PLNT_EARTH)
+	Transition(100.0)
+	SetScale(4.6e-09)
+
+	At Exit:
+	ResetViewTarget()
+	SetTitlePage(TITLE_PAGE_NONE)
