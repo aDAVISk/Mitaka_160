@@ -14,7 +14,7 @@ Mitakaについては https://4d2u.nao.ac.jp/html/program/mitaka/ をご覧く�
 
 
 ## LICENCE
-CC-BY: Akito D. Kawamura (@aDAVISk)
+CC-BY-NC-SA: Akito D. Kawamura (@aDAVISk)
 
 ## Sequences
 このディレクトリにはシーケンス用のファイルがあります。Mitakaのメニューバーの「ファイル」＞「コマンド定義ファイルを開く」より読み込み、メニューバーの「コマンド」より実行してください。
