@@ -14,5 +14,5 @@ Mitakaについては https://4d2u.nao.ac.jp/html/program/mitaka/ をご覧く�
 
 
 ## LICENCE
-CC-BY: Akito D. Kawamura (@aDAVISk)
+CC-BY-NC-SA: Akito D. Kawamura (@aDAVISk)
 
