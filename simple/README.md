@@ -6,7 +6,7 @@ Please visit https://4d2u.nao.ac.jp/html/program/mitaka/index_E.html for finding
 Also please read Copyright and Usage Notice of Mitaka https://4d2u.nao.ac.jp/english/index.html#notice  
 
 
-Mitakaのカスタマイズ用ファイルです。<br>
+Mitaka ver1.6のカスタマイズ用ファイルです。<br>
 これらのファイルはサードパーティーによるものです。本家（4D2U project）に当ディレクトリについて問い合わせしないでください。<br>
 
 Mitakaについては https://4d2u.nao.ac.jp/html/program/mitaka/ をご覧ください。<br>
